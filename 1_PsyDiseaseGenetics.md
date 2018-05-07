@@ -1,6 +1,10 @@
 # Title：The PHF21B gene is associated with major depression and modulates the stress response
 
-文章发表在《Molecular Psychiatry》上，心理学领域非常不错的杂志，这篇文章对我而言非常的重要！！！甚至以前看CNS级别的文章都没有给我这样的感受：它第一次让我感慨原来逻辑可以这样理，读起来让人觉得这个研究很有意义，甚至可以说图形的呈现方式都是用心的。因为博士课题中涉及到这个方向，所以看了比较多这类的文章，套路都一致，甚至一度让我认为***“奥，科研就是这样的：用大家都用的软件、说大家都说的话来写文章、放大家都认可的图”***，所以看到这个文章的时候我很开心，让我意识到要去思考怎么样在一样的条件/结果时故事讲的不一样、图呈现的不一样等等，其实读者真的可以隔着屏幕感受到你的用心！以及 <font color=#00ffff size=15 face="黑体">You must maintain a good habit of reading literature, this will give you a keen insight. </font> 所以重要的事情说3遍：看文献！看文献！看文献！
+文章发表在《Molecular Psychiatry》上，心理学领域非常不错的杂志，这篇文章对我而言非常的重要！！！甚至以前看CNS级别的文章都没有给我这样的感受：它第一次让我感慨原来逻辑可以这样理，读起来让人觉得这个研究很有意义，甚至可以说图形的呈现方式都是用心的。因为博士课题中涉及到这个方向，所以看了比较多这类的文章，套路都一致，甚至一度让我认为**“奥，科研就是这样的：用大家都用的软件、说大家都说的话来写文章、放大家都认可的图”**，所以看到这个文章的时候我很开心，让我意识到要去思考怎么样在一样的条件/结果时故事讲的不一样、图呈现的不一样等等，其实读者真的可以隔着屏幕感受到你的用心！以及:
+
+<font color=#00ffff size=5 face="黑体">You must maintain a good habit of reading literature, this will give you a keen insight. </font> 
+
+所以重要的事情说3遍：看文献！看文献！看文献！
 
 ## INTRODUCTION
 引言写的很棒，完全没有类似文章的套路，而是以新的视角说明“there is a need for new genomic approaches to identify the missing heritability”，推荐再看看可以把整个思路放到我的博士中期里。
