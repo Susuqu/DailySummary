@@ -28,6 +28,25 @@ employs cytogenetic technologies, such as karyotyping and fluorescence _in situ_
 随着芯片和测序技术的发展，逐渐发展出了不同的工具（基于不同的算法原理）用于鉴别CNV，这篇综述主要呈现了37种工具的检测策略，共可以归纳为：通过NGS数据鉴定CNV的5种策略——paired-end mapping (PEM), (2) split read (SR), (3) read depth (RD), (4) _de novo_ assembly of a genome (AS), and (5) combination of the above approaches (CB)。
 
 
+### 目前我们在使用的检测CNV的方式为：
+- GATK（最终使用的）；
+- CNVkit（尝试过的，但没有最终使用）；
+
+
+
+### call CNV的原理：
+call CNV的方法就是通过基因组不同区域的Read Depth数来确定，但是具体用了的统计学模型看不懂
+
+
+知乎上看了一个帖子：CNV因为绝大部分是打在noncoding区上的，而WES测序的方式是noncoding区的信息丢失；其次，WES在捕获过程中，探针可能会对序列有偏好性，导致reads的覆盖度的波动非常大，而这些波动很容易被误判为CNV，所以假阳性特别高。因此针对不同的测序方式要选择合适的算法才可以准确的call 出CNV。
+
+
+
+### call CNV的工具：
+- CNVkit, 2014年发表在_PLOS Computational Biology_杂志上：
+	- [official website](http://cnvkit.readthedocs.io/en/stable/)
+	- [生信菜鸟团](http://www.bio-info-trainee.com/2859.html)，但我看这个链接上写的cnvkit主要是对肿瘤配对样本的wes来寻找cnv啊，所以我们服务器上也用这个，合适么？
+
 
 ---
 ## 统计相关
