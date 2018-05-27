@@ -102,4 +102,17 @@ ppt里还有一些跟大数据、遗传变异等内容相关的ppt，文献也�
 
 ![Most diseases are controlled by multiple genes](./images/environment_epigenetic.PNG)
 
+---
+## 宏基因组 & 进化树
+
+写这部分内容的起因是需要帮Ma bo那边调研一下MEGA这个软件怎么用，原以为应该是特别简单的一个做进化的软件，但我一查发现还有点复杂啊，以及现在很多做宏基因组的人用这个比较多，然后想做好进化树也是需要很多背景知识的，所以就在学习的过程中写写关键信息。
+
+**但提醒自己这个只是一个扩充知识的过程，不要弄太细……没那么多时间！所以比如要做到的程度是：哪个地方需要选模型；首先需要提供什么数据；……而不是去告诉她该怎么选择模型，目前时间有限且掌握的内容有限，一定要有侧重！**
+
+- [科普帖子—宏基因组——生信技能树](www.biotrainee.com/thread-157-1-1.html)
+- [科普帖子—系统进化树基本知识——生信技能树](http://www.biotrainee.com/thread-1521-1-1.html)
+
+因为具体也不知道mabo那边到底要干嘛，也没告诉我具体的事情，明天下午就抽时间看看[说明文档](https://www.megasoftware.net/web_help_7/helpfile.htm#hc_first_time_user.htm)就好了
+
+
 
