@@ -139,4 +139,40 @@ _**ps：其实我还是不太懂具体原理是啥，但至少是2次刷新对CN
 ### 转换（Transition）和颠换（Transversion）
 转换(transition)则是嘌呤被嘌呤，或嘧啶被嘧啶替代，颠换(transversion)是指嘌呤与嘧啶的变化。转换突变比颠换突变更常见，且与颠换相比在氨基酸序列上产生差异的可能性更低。一般Transition 是 Transversion 数量的2倍。
 
+---
+
+## Gene Ontology (GO)注释
+
+**为什么要写这个呢？** 最近在弄中期答辩相关的东西，就在研究**怎么阐释找到的疾病相关的基因、通路的生物学意义，比如我们经常会用到GO,KEGG,Reactome注释，但具体这些注释什么用？我一直是了解的很浅显和片面的，以及怎么用这些内容去讲一个生物学的故事？伴随着这些问题吧，就开始了探索。** 然后看到有前辈用QuickGo对GO的结果进行图片展示，类似如下的图：
+
+![QuickGo展示GO的结果](./images/quickGO.PNG)
+
+所以我也开始研究QuickGO。
+
+**首先，**[PLoB关于GO的介绍](https://www.plob.org/article/3825.html)还挺详细的，但是吧，有点绕，可能我读的太糙。简单来说呢，GO提供了三种注释：
+- Molecular Function，分子功能（基因产物个体的功能，如与碳水化合物结合或ATP水解酶活性等）  
+- Cellular Component，细胞组成（亚细胞结构、位置和大分子复合物，如核仁、端粒和识别起始的复合物等）
+- Biological Process，生物学途径（分子功能的有序组合，达成更广的生物功能，如有丝分裂或嘌呤代谢等）
+
+_**ps: 顺带提一下，KEGG主要是对小分子代谢物的通路注释，Reactome主要是做蛋白类分析更适合。对每类数据库区分好注释的用途很关键！其次要提的是，当我们在做通路富集分析的时候，一定要用注释数据有在实时更新的软件或者网站，因为数据的更新会产生很多新的结果！ref：Wadi L, Meyer M, Weiser J, et al. Impact ofoutdated gene annotations on pathway enrichment analysis.[J]. Nature Methods,2016, 13(9):705.**_
+
+GO slim：在QuickGo中你会见到slim这个词，这个是GO联合会提供了简化的本体论术语。
+
+GO数据是否可以获取？
+- 所有数据都是免费获得的，而且一直处于更新的状态。
+
+GO注释怎么查看？
+- GO浏览器如AmiGO和 QuickGO,可以看到每个术语的注释。而可下载的DAG-Edit编辑器，一样可以离线地显示注释和所有本体论定义的信息。对于每一个浏览器来说，都可以选择最适用于你要求的工具软件。
+
+QuickGo怎么用？
+- 我试了试感觉不太好用，这可能是因为我对GO理解的不好。我比较关心的就是怎么把我感兴趣的一系列gene输入，然后出个上面类似的图，简单记录下（但具体怎么把这个图片下载下来以及怎么手动修改我还不清楚！）：
+	- [GO silims](https://www.ebi.ac.uk/QuickGO/slimming)
+	- Select terms（这个必须选，否则下面的步骤都做不了）
+	- Additional Options
+	- Gene Product ID（这个是对应的蛋白质的ID，也就是uniprot ID）
+
+刚看了下这个，发现这个页面好像更清楚唉，要不要也研究下呢？哈哈哈哈[AmiGO2](http://amigo.geneontology.org/amigo)，其实最后都点点点试了一下，各有好处吧！
+
+还意外发现了一个可以用来做通路分析的R包而且可以可视化（以前一直以为只有CytoScape才可以可视化，[pathview的学习](http://scu.zju.edu.cn/redir.php?catalog_id=58400&object_id=203725)），很多人推荐[clusterProfiler](https://wenku.baidu.com/view/6cf38ff33c1ec5da51e2709a.html)，据说实用又友好，可以后续试试（[这个链接也挺好](http://www.bio-info-club.com/?p=303)）。
+
 
