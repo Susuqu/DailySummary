@@ -175,4 +175,12 @@ QuickGo怎么用？
 
 还意外发现了一个可以用来做通路分析的R包而且可以可视化（以前一直以为只有CytoScape才可以可视化，[pathview的学习](http://scu.zju.edu.cn/redir.php?catalog_id=58400&object_id=203725)），很多人推荐[clusterProfiler](https://wenku.baidu.com/view/6cf38ff33c1ec5da51e2709a.html)，据说实用又友好，可以后续试试（[这个链接也挺好](http://www.bio-info-club.com/?p=303)）。
 
+---
 
+## 端粒
+
+一天天的啥都要研究，又需要调研个端粒相关的东西了，感觉自己以后应该啥都能查了，唉！无奈！大致列了个提纲，既是自我理解端粒的学习过程的提纲，也是汇报的提纲：
+- 端粒是什么样的结构？
+- 端粒有什么作用？
+- 如何检测端粒的长度变化？
+然后因为需要做ppt，所以会把具体内容放到ppt里！
