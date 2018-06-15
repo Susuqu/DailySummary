@@ -189,7 +189,7 @@ QuickGo怎么用？
 继续看文献：很奇怪的是为什么算法类的这么少？以及为啥感觉做的还不错的只能发PLOS ONE？当然我说的还不错也没有深入去看文章具体怎么比对、挖掘，但我觉得这个是一个可以探索的点，看下文章怎么比对的，研究下算法，然后也许就有可以改进的地方。
 
 ---
-## 单细胞测序
+## 单细胞测序技术：一种针对单个细胞进行深入研究的技术……
 
 又有了新的调研任务……
 
@@ -253,7 +253,8 @@ QuickGo怎么用？
 暂时省略。。。。
 <h3 id="4.2">4.2 数据形态</h3>
 <h3 id="4.3">4.3 数据分析</h3>
-这两部分放在一起写了！Hemberg Lab的这个帖子写的很全，推荐！[Analysis of single cell RNA-seq data](http://hemberg-lab.github.io/scRNA.seq.course/)。这里面有数据格式、处理流程：步骤和软件等；
+这两部分放在一起写了！[Hemberg Lab](https://www.sanger.ac.uk/science/groups/hemberg-group)的这个帖子写的很全，推荐！[Analysis of single cell RNA-seq data](http://hemberg-lab.github.io/scRNA.seq.course/)。这里面有数据格式、处理流程：步骤和软件等；
+ps: 对这个实验室蛮有好感的，看到他们的一个[合作者](http://www.childrenshospital.org/research/labs/steen-laboratory)以后可以考虑博后……
 
 ![Flowchart of the scRNA-seq analysis](./images/FlowchartSingleCellRNAseqAnalysis.PNG)
 
