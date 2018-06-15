@@ -212,6 +212,7 @@ QuickGo怎么用？
 
 
 <h2 id="0">0.引用对应的原文链接</h2>
+
 **部分文字内容参照、copy以下知乎帖子，如有涉及侵权的地方请联系我及时删除！**
 
 - [单细胞测序扫盲：是什么？为什么？怎么做？](https://zhuanlan.zhihu.com/p/28844468)
@@ -219,6 +220,7 @@ QuickGo怎么用？
 
 
 <h2 id="1">1. 为什么要做单细胞测序？</h2>
+
 **单细胞测序新时代：** 这个地方的时间点可能要更正一下，看了更全面的帖子，写的是从2009年就有了单细胞的实验研究[ref: Exponential scaling of single-cell RNA-seq in the last decade](https://arxiv.org/abs/1704.01379v2)
 
 ![ScalingOfscRNAseqExperiments](./images/ScalingOfscRNAseqExperiments.PNG)
@@ -243,6 +245,7 @@ QuickGo怎么用？
 
 
 <h2 id="4">4. 单细胞RNA测序——scRNA-seq</h2>
+
 ![Single cell sequencing Workflow-taken from Wikipedia](./images/SingleCellSequenceWorkflow.PNG)
 
 
