@@ -213,22 +213,21 @@ QuickGo怎么用？
 
 <h2 id="0">0.引用对应的原文链接</h2>
 **部分文字内容参照、copy以下知乎帖子，如有涉及侵权的地方请联系我及时删除！**
+
 - [单细胞测序扫盲：是什么？为什么？怎么做？](https://zhuanlan.zhihu.com/p/28844468)
 - [安诺-单细胞测序](http://www.ebiotrade.com/newsf/2018-1/201819144811260.htm)
 
 
 <h2 id="1">1. 为什么要做单细胞测序？</h2>
-**单细胞测序新时代：** 
-这个地方的时间点可能要更正一下，看了更全面的帖子，写的是从2009年就有了单细胞的实验研究[ref-Exponential scaling of single-cell RNA-seq in the last decade](https://arxiv.org/abs/1704.01379v2)
+**单细胞测序新时代：** 这个地方的时间点可能要更正一下，看了更全面的帖子，写的是从2009年就有了单细胞的实验研究[ref: Exponential scaling of single-cell RNA-seq in the last decade](https://arxiv.org/abs/1704.01379v2)
 
-![ScalingOfscRNAseqExperiments](./images/ScalingOfscRNAseqExperiments.PNG)。
+![ScalingOfscRNAseqExperiments](./images/ScalingOfscRNAseqExperiments.PNG)
 
 - 2011年，Nature Methods将单细胞测序列为年度值得期待的技术之一。
 - 2013年，Science将单细胞测序列为年度最值得关注的六大领域榜首。
 - 2017年10月16日，与“人类基因组计划”相媲美的“人类细胞图谱计划” 首批拟资助的38个项目正式公布，引爆单细胞测序新时代。
 
-** 为什么要使用单细胞测序呢？**
-世界上没有两片相同的叶子。对于多细胞生物来说，细胞与细胞之间是有差异的。当然了，这个差异可大可小：比如细胞分裂分化成不同的组织、器官，各自承担着不同的作用；比如癌细胞和肿块周围的细胞也是存在差异的，而这种差异，在临床上，其实是可以辅助对肿瘤的治疗是否有效进行判断的。这就是所谓的遗传信息的异质性。而传统的研究方法，都是在多细胞水平进行的，我们得到的信号值，其实是多个细胞的平均结果，这就使得细胞间的差异信息丢失，为了更直观地理解这个问题，可以看下下面这个图就清晰了：
+**为什么要使用单细胞测序呢？** 世界上没有两片相同的叶子。对于多细胞生物来说，细胞与细胞之间是有差异的。当然了，这个差异可大可小：比如细胞分裂分化成不同的组织、器官，各自承担着不同的作用；比如癌细胞和肿块周围的细胞也是存在差异的，而这种差异，在临床上，其实是可以辅助对肿瘤的治疗是否有效进行判断的。这就是所谓的遗传信息的异质性。而传统的研究方法，都是在多细胞水平进行的，我们得到的信号值，其实是多个细胞的平均结果，这就使得细胞间的差异信息丢失，为了更直观地理解这个问题，可以看下下面这个图就清晰了：
 
 ![为什么要做单细胞测序](./images/为什么要做单细胞测序.jpg)
 
@@ -244,7 +243,7 @@ QuickGo怎么用？
 
 
 <h2 id="4">4. 单细胞RNA测序——scRNA-seq</h2>
-![Single cell sequencing Workflow (taken from Wikipedia)](./images/SingleCellSequenceWorkflow.PNG)
+![Single cell sequencing Workflow-taken from Wikipedia](./images/SingleCellSequenceWorkflow.PNG)
 
 
 <h3 id="4.1">4.1 实验原理简单介绍</h3>
