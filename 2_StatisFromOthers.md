@@ -275,3 +275,12 @@ ps: 对这个实验室蛮有好感的，看到他们的一个[合作者](http://
 ### 2018/06/28
 又是一个调研任务，嗯，了解新知识总是好的，我也不知道直到毕业，我可以涉猎多少东西~
 
+# 基础生物学知识
+### 2018/06/29
+我发现吧，自己有些生物基础知识都随着时间推移忘的一干二净了，甚至有些耳熟能详的专业术语都不知道啥意思了，弄清楚还是很重要的，扫个盲！
+
+先放个图，牛不牛，好不好看，哈哈哈！
+
+有时候Wiki还挺牛啊[wiki-Epigenetics](https://en.wikipedia.org/wiki/Epigenetics)
+
+![Epigenetic_mechanisms](./images/Epigenetic_mechanisms.jpg)
