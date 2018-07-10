@@ -35,6 +35,7 @@
 
 
 <h2 id="1">1.相关系数类</h2>
+[科普网址](https://blog.csdn.net/mmc2015/article/details/51942066)
 
 <h3 id="1.1">1.1皮尔森(pearson)相关系数</h3>
 适用情况：连续变量，线性相关关系的相关强度。
