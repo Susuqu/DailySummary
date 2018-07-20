@@ -85,26 +85,28 @@ One Way ANOVA
 
 ---
 
-秩和检验/秩检验：
-两独立样本非参数检验方法，无需对总体分布做出假定，可以用来比较两组分布未知的样品差异。
-当正态分布、方差齐性等不能达到t检验的要求时，可以使用该检验。其假设基础是：若两个样本有差异，则他们的中心位置将不同。
+<h2 id="4">4.秩和检验/秩检验</h2>
 
-kruskal Wallis Test
+当正态分布、方差齐性等不能达到t检验的要求时，可以使用非参数检验。其假设基础是：若两个样本有差异，则他们的中心位置将不同。
+
+<h3 id="4.1">4.1Mann-Whitney-Wilcoxon Test,曼-惠特尼U检验</h3>
+曼-惠特尼U检验全称为**Mann-Whitney-Wilcoxon Test**用来检验两组独立样品是否来自两组不同的样品。
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.mstats.mannwhitneyu.html
+
+
+<h3 id="4.2">4.2 kruskal Wallis Test</h3>
 for not normally distributed data,多个群组之间比较时，因为群组不满足正态分布而不能使用ANOVA多比较
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.mstats.kruskalwallis.html
 
 [scipy.stats.mstats.kruskal](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.mstats.kruskal.html)
 [scipy.stats.mstats.kruskalwallis](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.mstats.kruskalwallis.html)
 
-曼-惠特尼U检验全称为**Mann-Whitney-Wilcoxon Test**用来检验两组独立样品是否来自两组不同的样品。
-https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.mstats.mannwhitneyu.html
-
-
+<h3 id="4.3">4.3 Wilcoxon Signed-Rank Test，威尔科克森符号秩检验</h3>
 威尔科克森符号秩检验又叫**Wilcoxon Signed-Rank Test**用来进行配对样品的非参数检验。
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wilcoxon.html#scipy.stats.wilcoxon
 it tests whether the distribution of the differences x - y is symmetric about zero. It is a non-parametric version of the paired T-test.
 
 ---
-回归分析
+<h2 id="6">6.回归分析</h2>回归分析
 
 https://blog.csdn.net/u012535605/article/details/70176496?locationNum=14&fps=1
