@@ -109,4 +109,5 @@ it tests whether the distribution of the differences x - y is symmetric about ze
 ---
 <h2 id="6">6.回归分析</h2>回归分析
 
+这个实现起来稍微麻烦一点点，最主要的可能是理解它的原理。
 https://blog.csdn.net/u012535605/article/details/70176496?locationNum=14&fps=1
