@@ -106,8 +106,23 @@ https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.mstats.kruskalw
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wilcoxon.html#scipy.stats.wilcoxon
 it tests whether the distribution of the differences x - y is symmetric about zero. It is a non-parametric version of the paired T-test.
 
+
+
+<h2 id="5">5.列联表分析</h2>
+
+<h3 id="5.1">5.1卡方检验</h3>
+
+卡方检验就是统计样本的实际观测值与理论推断值之间的偏离程度，实际观测值与理论推断值之间的偏离程度就决定卡方值的大小。
+
 ---
-<h2 id="6">6.回归分析</h2>回归分析
+<h2 id="6">6.回归分析</h2>
 
 这个实现起来稍微麻烦一点点，最主要的可能是理解它的原理。
 https://blog.csdn.net/u012535605/article/details/70176496?locationNum=14&fps=1
+
+<h3 id="6.1">6.1 逻辑回归</h3>
+
+虽然叫回归，但是实际是一种分类算法。用概率来表示分到某一类的可能性，而不是用离散的方式来表示0或1，[这个帖子举例子说明了为什么要用概率来评估属于哪一个分类](https://blog.csdn.net/wzmhong/article/details/54934453)。
+调研了一下发现[statesmodels这个包](http://www.statsmodels.org/stable/py-modindex.html)是可以实现logistics regression[逻辑回归的实例](https://blog.csdn.net/zj360202/article/details/78688070)的，以及这个包可以实现很多的功能。
+
+但我没搞懂和这个的区别scipy.stats.logistic
