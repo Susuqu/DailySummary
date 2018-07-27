@@ -112,6 +112,11 @@ it tests whether the distribution of the differences x - y is symmetric about ze
 
 <h2 id="5">5.列联表分析</h2>
 
+scipy.stats.chi2_contingency：独立性检验
+
+chisquare实际上是做适合性检验的
+
+
 [转载一个写的明明白白的帖子啊：卡方分布、卡方独立性检验和拟合性检验理论及其python实现](https://www.cnblogs.com/Yuanjing-Liu/p/9252844.html)
 
 <h3 id="5.1">5.1卡方检验（2*2列联表的卡方检验）</h3>
